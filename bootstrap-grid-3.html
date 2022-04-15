@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Uso de Bootstrap</title>
+    <style>
+        div.col-sm {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Grid system</h3>
+    <p>Este ejemplo crea tres columnas iguales utilizando las clases del sistema grid predefinidas. Dichas columnas
+        serán centradas en la página con el componente padre <mark>.container</mark>.</p>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm bg-primary" > Primer columna </div>
+            <div class="col-sm bg-secondary"> Segunda columna </div>
+            <div class="col-sm bg-success"> Tercer columna </div>
+        </div>
+    </div>
+    <br>
+    <p>Tres columnas de igual ancho en dispositivos de tamaños a partir de <mark>medium</mark>.</p>
+    <p>Las columnas de la cuadrícula que no tengan un <mark>width</mark> específico se distribuirán automáticamente como
+        columnas de igual ancho.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        /* Estilo de los div que son FILAS */
+        div.row{
+            padding: 10px;
+            border: 2px solid black;
+            background-color:lightgreen;
+        }
+
+        /* Estilo de los div que son COLUMNAS */
+        div.col{
+            padding: 10px;
+            border: 2px solid yellow;
+            background-color:green;
+        }
+
+        /* Estilo de los div que son COLUMNAS  de 6 unidades de ancho*/
+        div.col-6{
+            padding: 10px;
+            border: 2px solid yellow;
+            background-color:orange;
+        }   
+        
+        /* Estilo de los div que son COLUMNAS  de 5 unidades de ancho*/
+        div.col-5{
+            padding: 10px;
+            border: 2px solid yellow;
+            background-color:grey;
+        }               
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <h3>Sistema de grilla en Bootstrap</h3>
+    <p>El framework nos provee clases del tipo <mark>col-x</mark> para crear elementos con un ancho de 1 a 12 columnas.</p>
+    <!-- <div class="container-fluid"> -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                1 de 3
+            </div>
+            <div class="col-6">
+                2 de 3 (6 col)
+            </div>
+            <div class="col">
+                3 de 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                1 de 3
+            </div>
+            <div class="col-5">
+                2 de 3 (5 col)
+            </div>
+            <div class="col">
+                3 de 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>  
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>
+            <div class="col">1</div>               
+        </div>        
+    </div>
+</body>
+
+</html>
