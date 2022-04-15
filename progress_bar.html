@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Preogress Bar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h3>Progress Bar en Bootstrap</h3>
+    </div>
+
+    <br><br>
+
+    <div class="container mt-3">
+        <h2>Progress Bar simple:</h2>
+        <p>Creamos una barra de progreso agregando la clase <code>.progress</code> a un elemento contenedor que posea en su interior un hijo de la clase <code>progress-bar</code>:</p>
+        <div class="progress">
+            <div class="progress-bar" style="width:70%"></div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container mt-3">
+        <h2>Cambiar la altura de la barra:</h2>
+        <p>La altura de la barra es, por defecto, de 1rem (16px). Se puede cambiar con la propiedad <code>height:</code>
+        </p>
+        <pre>class="progress-bar" style="width:40%; height:10px"</pre>
+    </div><br><br>
+
+
+    <div class="container mt-3">
+        <h2>Barras con texto:</h2>
+        <p>Colocamos el texto entre las etiquetas <code>div</code> que generan la barra</p>
+           <!-- <div class="progress-bar" style="width:70%">70%</div> -->
+    </div>
+
+
+    <div class="container mt-3">
+        <h2>Barras de color:</h2>
+        <p>Podemos utlizar los colores contextuales de Bootstrap para colorear las barras:</p>
+
+        <pre>class="progress-bar bg-success" style="width:20%"</pre>
+    </div><br><br>
+
+
+    <div class="container mt-3">
+        <h2>Barras con estilo "cebra":</h2>
+        <p>Utilizamos la clase <code>.progress-bar-striped</code> para generar barras de dos colores alternados:</p>
+        <pre> class="progress-bar bg-info progress-bar-striped" style="width:50%"</pre>
+    </div><br><br>
+
+
+    <div class="container mt-3">
+        <h2>Barras animadas:</h2>
+        <p>Utilizamos la clase <code>.progress-bar-animated</code> para generar barras de color animadas:</p>
+        <pre>class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"</pre>
+    </div><br><br>
+
+    <div class="container mt-3">
+        <h2>Multiple Progress Bars</h2>
+        <p>Colocando mas de una barra dentro del mimso div con la clase <code>progress</code> obtenemos barras múltiples:</p> 
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width:40%">
+            Espacio disponible
+          </div>
+          <div class="progress-bar bg-warning" style="width:20%">
+            Cuidado
+          </div>
+          <div class="progress-bar bg-danger" style="width:10%">
+            Peligro
+          </div>
+        </div>
+      </div><br><br>
+
+</body>
+
+</html>
